@@ -1,0 +1,4 @@
+These are codes to compile for practical2:
+gfortran -o Conversion Conversion.f90
+gfortran -o Sum Sum.f90
+
