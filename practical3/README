@@ -1,0 +1,5 @@
+
+Program to calculate area under a curve using trapezoidal rule 
+
+To compile program use:  gfortran -o integrate integrate.f90
+To run program use: ./integrate  
