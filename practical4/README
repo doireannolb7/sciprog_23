@@ -1,0 +1,8 @@
+Area calculation program
+
+To Compile:
+gfortran -o areacalculation.f90 area calculation
+
+To run:
+./areacalculation 
+
