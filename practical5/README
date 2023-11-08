@@ -1,0 +1,15 @@
+Three programs to be compiled:
+
+1. To compile read.f90:
+gfortran -o read read.f90 
+This program allows user to supply an annswer anf for it to be read from the screen
+
+2. To compile fibonacci.f90:
+gfortran -o fibonacci fibonacci.f90
+This program allows the user to supply a number, and the program will calculate the fibonacci series up to that number
+
+3. To compile arctan.f90:
+gfortran -o arctan arctan.f90
+This program allows the suer to input a value for delta (precision value)
+Two formulae are used to calculate the hyperbolic tangent 
+The difference between both methods at different values of delta will be printed
