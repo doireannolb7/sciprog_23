@@ -1,0 +1,16 @@
+This code multiplies matrix A by matrix B to give Matrix C
+
+Two files are used here: main.f90 and mult.f90
+main.f90 is used to define the matrices
+mult.f90 is where the matrix multipilication occurs 
+
+A Makefile is also used to allow for complilation of both files simultaneously
+This is useful when chnages are made to a file so re-compilation can be carried out once only
+
+To compile:
+make -f Makefilef
+
+To run:
+ ./matmultf
+
+Running program shows matrices A,B,C
