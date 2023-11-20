@@ -1,0 +1,10 @@
+For this practical one program is to be complied:
+
+gfortran -o finde finde.f90
+To run, use: /finde e
+
+The user gives a number between 1 and 15 which is used as the polynomial order
+e is calculated ad compared to its true value
+The program prints the value of e
+
+The result becomes less accurate after 13th term as integer acnnot be used to represent higher polynomial orders in 4 bytes
