@@ -1,0 +1,8 @@
+ This program is used to calculate the greatest common divisor of two numbers (a and b) using the euclidian algorithm
+ Values of a and b can be modified within the code 
+
+ To complie:
+  gfortran -o gcd gcd.f90 
+
+ To run:
+  ./gcd
