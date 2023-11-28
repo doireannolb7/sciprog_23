@@ -1,0 +1,24 @@
+This program takes the input of a file and checks to see if the matrix in the file is a magic square or not
+For a magic square, the sum of each row, column and both diagonals is the same number
+The converse is true for a matrix which is not a magic square
+
+To compile:
+gfortran -o main main.f90
+
+To run:
+./main 
+
+User will be prompted to choose a file
+To try running using a magic square type matrix use:
+magic_square.txt
+
+To try running using a non magic square type matrix use:
+not_magic_square.txt
+
+The program will display the sum of the rows, columns and both diagonals 
+It will also say if the square is magic or not 
+
+
+(Unfortunately I did not succeed in having this program work as it should. I was unable to get the sum of both diagonals and I recognise that 
+there are more errors in my code also as my row and column sums using magic_square.txt did not all add to the same number. I was unable to spend 
+enough time fixing my code due to tine constraints)
